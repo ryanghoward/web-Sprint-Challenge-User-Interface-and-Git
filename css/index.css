@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,31 @@ table {
 
 * {
     box-sizing: border-box;
+}
+
+/* ---- Header ---- */
+
+#nav {
+    text-align: center;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 2rem 0;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin: 0 54.5rem;
+}
+
+#jumbo{
+    margin: 1rem 0;
 }
 
 html, body {
@@ -95,16 +120,117 @@ p {
     margin-bottom: 0;
 }
 
+/* ---- Boxes ---- */
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -131,6 +257,66 @@ footer {
     background: black;
 }
 
+/* ---- About Page ---- */
+
+.header-img, #jumbo {
+    display: flex;
+    justify-content: flex-end;;
+    align-items: center;
+}
+
+.about {
+    margin: 2rem 1rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+h3, p {
+    margin: 1rem 0rem;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#firstsection, .imggroup1, .imggroup2 {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#secondsection, .imggroup1, .imggroup2 {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.letsworktogether, .lwt-p {
+    margin: 2rem 0.5rem;
+}
+
+.strategy {
+    margin: 0.5rem 0.5rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.howwework {
+    margin: 0.5rem 0.5rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.placeswework {
+    margin: 2rem 1rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.collaboration {
+    margin: 2rem 1rem;
+    border-bottom: 0.1rem dashed black;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -143,4 +329,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.buttondiv {
+    margin: 2rem 0rem;
+}
+
+.button {
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background: #4e4e4e;
+    color: white;
+    transition: 0.4s;
+    border: 2px solid black;
 }
