@@ -57,15 +57,19 @@ table {
     text-align: center;
     max-width: 800px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 0 0;
+    padding: 2rem 0;
 }
 
 .nav {
     text-decoration: none;
     color: black;
+}
+
+header {
+    margin: 0 54.5rem;
 }
 
 #jumbo{
@@ -288,6 +292,22 @@ h3, p {
 }
 
 .strategy {
+    margin: 0.5rem 0.5rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.howwework {
+    margin: 0.5rem 0.5rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.placeswework {
+    margin: 2rem 1rem;
+    border-bottom: 0.1rem dashed black;
+}
+
+.collaboration {
+    margin: 2rem 1rem;
     border-bottom: 0.1rem dashed black;
 }
 
@@ -305,6 +325,9 @@ footer nav a {
     text-decoration: none;
 }
 
+.buttondiv {
+    margin: 2rem 0rem;
+}
 
 .button {
     text-decoration: none;
