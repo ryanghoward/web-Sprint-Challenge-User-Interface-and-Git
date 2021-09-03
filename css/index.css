@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 /* ---- Header ---- */
@@ -57,9 +58,8 @@ table {
     text-align: center;
     max-width: 800px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
-    margin: 0 0;
     padding: 2rem 0;
 }
 
@@ -278,12 +278,14 @@ h3, p {
     max-width: 1000px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #secondsection, .imggroup1, .imggroup2 {
     max-width: 1000px;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
