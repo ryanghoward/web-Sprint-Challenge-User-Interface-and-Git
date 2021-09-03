@@ -255,6 +255,37 @@ footer {
 
 /* ---- About Page ---- */
 
+.button {
+    text-decoration: none;
+    color: red;
+}
+
+.header-img, #jumbo {
+    display: flex;
+    justify-content: flex-end;;
+    align-items: center;
+}
+
+.about {
+    margin: 2rem 1rem;
+}
+
+#firstsection, .imggroup1, .imggroup2 {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#secondsection, .imggroup1, .imggroup2 {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.letsworktogether, .lwt-p {
+    margin: 2rem 0.5rem;
+}
 
 footer nav {
     width: 60%;
