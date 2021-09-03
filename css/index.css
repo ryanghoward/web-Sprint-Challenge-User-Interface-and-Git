@@ -255,11 +255,6 @@ footer {
 
 /* ---- About Page ---- */
 
-.button {
-    text-decoration: none;
-    color: red;
-}
-
 .header-img, #jumbo {
     display: flex;
     justify-content: flex-end;;
@@ -270,15 +265,19 @@ footer {
     margin: 2rem 1rem;
 }
 
+h3, p {
+    margin: 1rem 0rem;
+}
+
 #firstsection, .imggroup1, .imggroup2 {
-    max-width: 800px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 #secondsection, .imggroup1, .imggroup2 {
-    max-width: 800px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
 }
@@ -299,4 +298,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.button {
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 7px 25px;
+    border-radius: 10%;
+    border: 2px solid black;
 }
