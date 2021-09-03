@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -59,7 +59,7 @@ table {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin: auto;
+    margin: 0 auto;
     padding: 2rem;
 }
 
@@ -69,7 +69,7 @@ table {
 }
 
 #jumbo{
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 html, body {
@@ -115,6 +115,8 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+/* ---- Boxes ---- */
 
 .middle-content .boxes {
     display: flex;
@@ -232,7 +234,6 @@ p {
     justify-content: center;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -251,6 +252,9 @@ footer {
     width: 100%;
     background: black;
 }
+
+/* ---- About Page ---- */
+
 
 footer nav {
     width: 60%;
