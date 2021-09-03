@@ -263,6 +263,7 @@ footer {
 
 .about {
     margin: 2rem 1rem;
+    border-bottom: 0.1rem dashed black;
 }
 
 h3, p {
@@ -286,6 +287,10 @@ h3, p {
     margin: 2rem 0.5rem;
 }
 
+.strategy {
+    border-bottom: 0.1rem dashed black;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -305,7 +310,13 @@ footer nav a {
     text-decoration: none;
     background: white;
     color: black;
-    padding: 7px 25px;
+    padding: 0.5rem 1rem;
     border-radius: 10%;
     border: 2px solid black;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
 }
