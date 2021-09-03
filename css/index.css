@@ -51,6 +51,27 @@ table {
     box-sizing: border-box;
 }
 
+/* ---- Header ---- */
+
+#nav {
+    text-align: center;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: auto;
+    padding: 2rem;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+#jumbo{
+    margin: 1rem;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
